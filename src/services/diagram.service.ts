@@ -62,6 +62,11 @@ You must perform these steps in order for every connection:
 6. Ensure that every diamond follows the rule : height = width
 
 7. Ensure to add a little padding around the text inside each shape.
+
+8. Try to connect the arrows to as many different sides of the shapes as possible, while maintaining a clear and logical flow.
+If there are many arrows connecting a shape, there is no workaround, so feel free to prioritize connection over aesthetics.
+
+9. You can use different colors for elements if it suits the use-case.
 ---
 ### 4. EXAMPLE
 User Request: "Show a simple two-step process."
@@ -142,6 +147,8 @@ You must respond with only the raw JSON object. Do not wrap it in markdown or ad
 
         // Add validation here to ensure the parsed response
         // matches the DiagramResponse interface.
+
+        console.log(parsedResponse);
 
         return parsedResponse;
     }
